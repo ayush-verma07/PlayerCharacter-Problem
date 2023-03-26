@@ -63,19 +63,19 @@ public class PlayerCharacter {
     }
     
     public void updateStr(int n) {
-        strength = n;
+        strength += n;
     }
     
     public void updateInt(int n) {
-        intelligence = n;
+        intelligence += n;
     }
     
     public void updatePiety(int n) {
-        piety = n;
+        piety += n;
     }
     
     public String toString() {
-        return (name + " currently has " + currHealth + " of a max " + maxHealth);
+        return (name + " currently has " + currHealth + " health of a max " + maxHealth);
     }
     
 }
